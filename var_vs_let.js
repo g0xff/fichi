@@ -10,7 +10,7 @@ console.time('var for time')
         a = j**2 * 0.1;
     }
 }
-console.timeEnd('var for time');
+console.timeEnd('var for time'); //986ms
 console.time('let for time')
 {
     let a = 0;
@@ -18,4 +18,4 @@ console.time('let for time')
         a = j**2 * 0.1;
     }
 }
-console.timeEnd('let for time');
+console.timeEnd('let for time'); //81ms
