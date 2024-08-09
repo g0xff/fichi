@@ -1,5 +1,5 @@
 var f = (y) => a*y;
-const eb = 1000000000;
+const eb = 100000000;
 
 console.time('var for time')
 {
